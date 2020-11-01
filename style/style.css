@@ -1,0 +1,71 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "ArialBlack";
+  src: url("../fonts/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-size: 10px;
+}
+
+.menu_grid {
+  display: grid;
+  grid-template-columns: repeat(2, [col] 1fr);
+  grid-template-rows: repeat(6, [row] auto);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin: 2em;
+  font-size: 3em;
+  font-family: "ArialBlack";
+}
+
+.menu_grid_time {
+  font-size: 4em;
+}
+
+.poloska {
+  background: #000;
+  width: 100px;
+  height: 2px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.menu_grid_1 {
+  grid-column: col/ span 1;
+  grid-row: row 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu_grid_2 {
+  grid-column: col/ span 1;
+  grid-row: row 2;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu_grid_3 {
+  grid-column: col/ span 1;
+  grid-row: row 3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu_grid_4 {
+  grid-column: col/ span 1;
+  grid-row: row 4;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu_grid_5 {
+  grid-column: col/ span 1;
+  grid-row: row 5;
+  display: flex;
+  align-items: flex-end;
+}
